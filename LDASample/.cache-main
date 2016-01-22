@@ -1,0 +1,395 @@
+format version: 5
+output mode:
+1 items
+0 -> multiple
+output directories:
+1 items
+/home/charles/workspace/LDASample/src -> /home/charles/workspace/LDASample/bin
+compile options:
+8 items
+0 -> -javabootclasspath
+1 -> /usr/local/jdk1.8.0_66/jre/lib/resources.jar:/usr/local/jdk1.8.0_66/jre/lib/rt.jar:/usr/local/jdk1.8.0_66/jre/lib/jsse.jar:/usr/local/jdk1.8.0_66/jre/lib/jce.jar:/usr/local/jdk1.8.0_66/jre/lib/charsets.jar:/usr/local/jdk1.8.0_66/jre/lib/jfr.jar:/usr/local/jdk1.8.0_66/jre/lib/ext/sunec.jar:/usr/local/jdk1.8.0_66/jre/lib/ext/nashorn.jar:/usr/local/jdk1.8.0_66/jre/lib/ext/dnsns.jar:/usr/local/jdk1.8.0_66/jre/lib/ext/localedata.jar:/usr/local/jdk1.8.0_66/jre/lib/ext/sunpkcs11.jar:/usr/local/jdk1.8.0_66/jre/lib/ext/cldrdata.jar:/usr/local/jdk1.8.0_66/jre/lib/ext/zipfs.jar:/usr/local/jdk1.8.0_66/jre/lib/ext/sunjce_provider.jar:/usr/local/jdk1.8.0_66/jre/lib/ext/jfxrt.jar:/usr/local/jdk1.8.0_66/jre/lib/ext/jaccess.jar
+2 -> -javaextdirs
+3 ->  
+4 -> -bootclasspath
+5 -> /usr/local/spark-1.5.2-bin-hadoop2.6/lib/spark-assembly-1.5.2-hadoop2.6.0.jar
+6 -> -encoding
+7 -> UTF-8
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.5
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> false
+products:
+95 items
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/AbstractParams.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/AbstractParams$$anonfun$1.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/AbstractParams.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/AbstractParams$$anonfun$toString$1.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/AbstractParams.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/AbstractParams.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$13.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$14.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$15.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$16.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$17.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$18.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$19.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$20.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$21.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$22.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$23.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$24$$anonfun$apply$6.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$24.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$25.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$26.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$27.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$28.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$29.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$3.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$30.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$31.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$32.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$33.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$34.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$35.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$36.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$37.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$38.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$39.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$40.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$41$$anonfun$apply$8.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$41.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$42.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$43.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$44.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$45.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$46.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$47$$anonfun$4.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$47$$anonfun$apply$9$$anonfun$apply$2.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$47$$anonfun$apply$9.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$47.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$org$apache$spark$examples$mllib$LDAExample$$run$1$$anonfun$apply$7.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$org$apache$spark$examples$mllib$LDAExample$$run$1.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$preprocess$1.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$preprocess$2.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$Params$$typecreator1$1.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$Params$.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$Params.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anon$1.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anon$2.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anon$3.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$10$$anonfun$2.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$10$$anonfun$apply$5$$anonfun$apply$1.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$10$$anonfun$apply$5.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$10.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$11.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$12.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$5.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$6$$anonfun$apply$3.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$6.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$7$$anonfun$apply$4.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$7.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$8.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$9.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$1.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$2.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$3.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$4.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$5.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$6.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$7.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/SimpleTokenizer$$anonfun$48.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/SimpleTokenizer$$anonfun$getWords$1.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/SimpleTokenizer.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyHashingTF.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyHashingTF$$anonfun$transform$1$$anonfun$apply$1.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyHashingTF.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyHashingTF$$anonfun$transform$1.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyHashingTF.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyHashingTF$$anonfun$transform$2.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyHashingTF.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyHashingTF.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDF$$anonfun$1.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDF$$anonfun$2.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDF$.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDF$DocumentFrequencyAggregator.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDF.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDFModel$$anonfun$transform$1$$anonfun$apply$1.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDFModel$$anonfun$transform$1.class
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> /home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDFModel.class
+binary dependencies:
+10 items
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/AbstractParams.scala -> /usr/local/jdk1.8.0_66/jre/lib/rt.jar
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/AbstractParams.scala -> /usr/local/spark-1.5.2-bin-hadoop2.6/lib/spark-assembly-1.5.2-hadoop2.6.0.jar
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/Tools/scopt_2.10-3.3.0.jar
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /usr/local/jdk1.8.0_66/jre/lib/rt.jar
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /usr/local/spark-1.5.2-bin-hadoop2.6/lib/spark-assembly-1.5.2-hadoop2.6.0.jar
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /usr/share/scala/lib/scala-swing_2.11-1.0.2.jar
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyHashingTF.scala -> /usr/local/jdk1.8.0_66/jre/lib/rt.jar
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyHashingTF.scala -> /usr/local/spark-1.5.2-bin-hadoop2.6/lib/spark-assembly-1.5.2-hadoop2.6.0.jar
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> /usr/local/jdk1.8.0_66/jre/lib/rt.jar
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> /usr/local/spark-1.5.2-bin-hadoop2.6/lib/spark-assembly-1.5.2-hadoop2.6.0.jar
+direct source dependencies:
+1 items
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> /home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/AbstractParams.scala
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+95 items
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/AbstractParams.scala -> org.apache.spark.examples.mllib.AbstractParams
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/AbstractParams.scala -> org.apache.spark.examples.mllib.AbstractParams$$anonfun$1
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/AbstractParams.scala -> org.apache.spark.examples.mllib.AbstractParams$$anonfun$toString$1
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anon$4
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anon$4$$anonfun$13
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anon$4$$anonfun$14
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anon$4$$anonfun$15
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anon$4$$anonfun$16
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anon$4$$anonfun$17
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anon$4$$anonfun$18
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anon$4$$anonfun$19
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anon$4$$anonfun$20
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anon$4$$anonfun$21
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anon$4$$anonfun$22
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anon$4$$anonfun$23
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$24
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$24$$anonfun$apply$6
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$25
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$26
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$27
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$28
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$29
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$3
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$30
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$31
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$32
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$33
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$34
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$35
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$36
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$37
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$38
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$39
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$40
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$41
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$41$$anonfun$apply$8
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$42
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$43
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$44
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$45
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$46
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$47
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$47$$anonfun$4
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$47$$anonfun$apply$9
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$47$$anonfun$apply$9$$anonfun$apply$2
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$org$apache$spark$examples$mllib$LDAExample$$run$1
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$org$apache$spark$examples$mllib$LDAExample$$run$1$$anonfun$apply$7
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$preprocess$1
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$$anonfun$preprocess$2
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$Params
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$Params$
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$Params$$typecreator1$1
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anon$1
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anon$2
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anon$3
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$10
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$10$$anonfun$2
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$10$$anonfun$apply$5
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$10$$anonfun$apply$5$$anonfun$apply$1
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$11
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$12
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$5
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$6
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$6$$anonfun$apply$3
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$7
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$7$$anonfun$apply$4
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$8
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$9
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$1
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$2
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$3
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$4
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$5
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$6
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$7
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.SimpleTokenizer
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.SimpleTokenizer$$anonfun$48
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> org.apache.spark.examples.mllib.SimpleTokenizer$$anonfun$getWords$1
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyHashingTF.scala -> org.apache.spark.examples.mllib.MyHashingTF
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyHashingTF.scala -> org.apache.spark.examples.mllib.MyHashingTF$$anonfun$transform$1
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyHashingTF.scala -> org.apache.spark.examples.mllib.MyHashingTF$$anonfun$transform$1$$anonfun$apply$1
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyHashingTF.scala -> org.apache.spark.examples.mllib.MyHashingTF$$anonfun$transform$2
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> org.apache.spark.examples.mllib.MyIDF
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> org.apache.spark.examples.mllib.MyIDF$
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> org.apache.spark.examples.mllib.MyIDF$$anonfun$1
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> org.apache.spark.examples.mllib.MyIDF$$anonfun$2
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> org.apache.spark.examples.mllib.MyIDF$DocumentFrequencyAggregator
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> org.apache.spark.examples.mllib.MyIDFModel
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> org.apache.spark.examples.mllib.MyIDFModel$$anonfun$transform$1
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> org.apache.spark.examples.mllib.MyIDFModel$$anonfun$transform$1$$anonfun$apply$1
+used names:
+0 items
+product stamps:
+95 items
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/AbstractParams$$anonfun$1.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/AbstractParams$$anonfun$toString$1.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/AbstractParams.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$13.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$14.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$15.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$16.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$17.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$18.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$19.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$20.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$21.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$22.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4$$anonfun$23.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anon$4.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$24$$anonfun$apply$6.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$24.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$25.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$26.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$27.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$28.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$29.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$3.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$30.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$31.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$32.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$33.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$34.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$35.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$36.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$37.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$38.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$39.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$40.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$41$$anonfun$apply$8.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$41.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$42.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$43.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$44.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$45.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$46.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$47$$anonfun$4.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$47$$anonfun$apply$9$$anonfun$apply$2.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$47$$anonfun$apply$9.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$47.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$org$apache$spark$examples$mllib$LDAExample$$run$1$$anonfun$apply$7.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$org$apache$spark$examples$mllib$LDAExample$$run$1.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$preprocess$1.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$$anonfun$preprocess$2.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$Params$$typecreator1$1.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$Params$.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$Params.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anon$1.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anon$2.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anon$3.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$10$$anonfun$2.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$10$$anonfun$apply$5$$anonfun$apply$1.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$10$$anonfun$apply$5.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$10.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$11.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$12.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$5.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$6$$anonfun$apply$3.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$6.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$7$$anonfun$apply$4.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$7.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$8.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$9.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$1.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$2.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$3.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$4.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$5.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$6.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1$$anonfun$applyOrElse$7.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$$anonfun$1.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI$.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample$UI.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/LDAExample.class -> lastModified(1453430378000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyHashingTF$$anonfun$transform$1$$anonfun$apply$1.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyHashingTF$$anonfun$transform$1.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyHashingTF$$anonfun$transform$2.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyHashingTF.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDF$$anonfun$1.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDF$$anonfun$2.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDF$.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDF$DocumentFrequencyAggregator.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDF.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDFModel$$anonfun$transform$1$$anonfun$apply$1.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDFModel$$anonfun$transform$1.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/MyIDFModel.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/SimpleTokenizer$$anonfun$48.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/SimpleTokenizer$$anonfun$getWords$1.class -> lastModified(1453430379000)
+/home/charles/workspace/LDASample/bin/org/apache/spark/examples/mllib/SimpleTokenizer.class -> lastModified(1453430379000)
+source stamps:
+4 items
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/AbstractParams.scala -> hash(6b65ce285286d365a57296751257594b184aa502)
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> hash(2965488f5fd98305ca610cc1b246b2862a18185d)
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyHashingTF.scala -> hash(326da33f4f7f55f63623d49f6890bf91173fe014)
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> hash(c8bdc3ed08c234196e1252033dd28f5bf91b57b9)
+binary stamps:
+4 items
+/home/charles/Tools/scopt_2.10-3.3.0.jar -> lastModified(1451038310000)
+/usr/local/jdk1.8.0_66/jre/lib/rt.jar -> lastModified(1444178208000)
+/usr/local/spark-1.5.2-bin-hadoop2.6/lib/spark-assembly-1.5.2-hadoop2.6.0.jar -> lastModified(1446573951000)
+/usr/share/scala/lib/scala-swing_2.11-1.0.2.jar -> lastModified(1430422821000)
+class names:
+4 items
+/home/charles/Tools/scopt_2.10-3.3.0.jar -> scopt.OptionDef
+/usr/local/jdk1.8.0_66/jre/lib/rt.jar -> java.io.Serializable
+/usr/local/spark-1.5.2-bin-hadoop2.6/lib/spark-assembly-1.5.2-hadoop2.6.0.jar -> scala.Serializable
+/usr/share/scala/lib/scala-swing_2.11-1.0.2.jar -> scala.swing.RichWindow$InterfaceMixin
+internal apis:
+4 items
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/AbstractParams.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDk+x27AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHABdAAub3JnLmFwYWNoZS5zcGFyay5leGFtcGxlcy5tbGxpYi5BYnN0cmFjdFBhcmFtc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAABc3IAF3hzYnRpLmFwaS5UeXBlUGFyYW1ldGVyZ2lV2+NykGsCAAZbAAthbm5vdGF0aW9uc3EAfgAaTAACaWRxAH4AHEwACmxvd2VyQm91bmR0ABBMeHNidGkvYXBpL1R5cGU7WwAOdHlwZVBhcmFtZXRlcnNxAH4AF0wACnVwcGVyQm91bmRxAH4AKUwACHZhcmlhbmNldAAUTHhzYnRpL2FwaS9WYXJpYW5jZTt4cHVxAH4AIQAAAAB0ADBvcmcuYXBhY2hlLnNwYXJrLmV4YW1wbGVzLm1sbGliLkFic3RyYWN0UGFyYW1zLlRzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+ABxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwdAAHTm90aGluZ3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AMHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+ABx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4APXVxAH4AJgAAAABzcQB+AC50AANBbnlxAH4ANn5yABJ4c2J0aS5hcGkuVmFyaWFuY2UAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAlJbnZhcmlhbnR+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cQB+AEZ0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbDuRTxH0RUzJAgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AE94cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cQB+ADBzcQB+AE4AcHNxAH4AU3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgAVTAAJaW5oZXJpdGVkcQB+ABVMAAdwYXJlbnRzcQB+ABV4cQB+ADFzcQB+AE4AcHNxAH4AU3VxAH4AEAAAAABzcQB+AE4AcHNxAH4AU3VxAH4AEAAAAABzcQB+AE4AcHNxAH4AU3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3EAfgAudAAGT2JqZWN0c3EAfgA0c3EAfgA3dXEAfgA6AAAAA3NxAH4APHQABGphdmFzcQB+ADx0AARsYW5ncQB+AEFzcQB+AC5xAH4ARHNxAH4ANHNxAH4AN3VxAH4AOgAAAAJzcQB+ADxxAH4AP3EAfgBBdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAVzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4AHHhwdAAZb3JnLmFwYWNoZS5zcGFyay5leGFtcGxlc3NxAH4AdXQAH29yZy5hcGFjaGUuc3BhcmsuZXhhbXBsZXMubWxsaWJzcQB+AHV0ABBvcmcuYXBhY2hlLnNwYXJrc3EAfgB1dAAKb3JnLmFwYWNoZXNxAH4AdXQAA29yZ3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUmczd5Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+ABxMAA9zb3VyY2VEaXJlY3RvcnlxAH4AHHhwdAAlL2hvbWUvY2hhcmxlcy93b3Jrc3BhY2UvTERBU2FtcGxlL2JpbnQAJS9ob21lL2NoYXJsZXMvd29ya3NwYWNlL0xEQVNhbXBsZS9zcmN1cgACW0Ks8xf4BghU4AIAAHhwAAAAFGtlzihShtNlpXKWdRJXWUsYSqUC
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDrJFyVAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAqb3JnLmFwYWNoZS5zcGFyay5leGFtcGxlcy5tbGxpYi5MREFFeGFtcGxldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsO5FPEfRFTMkCAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AL3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4ALgBwc3EAfgAzc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+ABVMAAlpbmhlcml0ZWRxAH4AFUwAB3BhcmVudHNxAH4AFXhxAH4AN3NxAH4ALgBwc3EAfgAzdXEAfgAQAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgAWcQB+ACB1cQB+ACEAAAAAc3EAfgAjAHQABG1haW51cQB+ACYAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAcTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4ANnQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+ADZzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAceHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AFV1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4AHEwAA3RwZXEAfgBBeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgApdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBJWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgA2c3EAfgBIdAAFQXJyYXlxAH4ATnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBIdAAGU3RyaW5nc3EAfgBMc3EAfgBPdXEAfgBSAAAAA3NxAH4AVHQABGphdmFzcQB+AFR0AARsYW5ncQB+AFlzcQB+AC4AcHNxAH4AM3VxAH4AEAAAAABzcQB+AC4AcHNxAH4AM3VxAH4AbQAAAAJzcQB+AEh0AAZPYmplY3RxAH4AcXNxAH4ASHQAA0FueXEAfgBOc3EAfgASc3IAEXhzYnRpLmFwaS5Qcml2YXRlU6lggSbp1T4CAAB4cgATeHNidGkuYXBpLlF1YWxpZmllZKq0Xe9UsW0YAgABTAAJcXVhbGlmaWVydAAVTHhzYnRpL2FwaS9RdWFsaWZpZXI7eHEAfgAfc3IAFXhzYnRpLmFwaS5VbnF1YWxpZmllZNw2FLaeLoL1AgAAeHIAE3hzYnRpLmFwaS5RdWFsaWZpZXKzeJSp69ZbJwIAAHhwdXEAfgAhAAAAAHNxAH4AIwB0AC9vcmcuYXBhY2hlLnNwYXJrLmV4YW1wbGVzLm1sbGliLlNpbXBsZVRva2VuaXplcnVxAH4AJgAAAAB+cQB+ACh0AAhDbGFzc0RlZnVxAH4ALAAAAABzcQB+AC4AcHNxAH4AM3EAfgA4c3EAfgAuAHBzcQB+ADNzcQB+ADtzcQB+AC4AcHNxAH4AM3VxAH4AEAAAAABzcQB+AC4AcHNxAH4AM3VxAH4AEAAAAABzcQB+AC4AcHNxAH4AM3VxAH4AbQAAAANzcQB+AEh0AAxTZXJpYWxpemFibGVzcQB+AExzcQB+AE91cQB+AFIAAAADc3EAfgBUcQB+AHVzcQB+AFR0AAJpb3EAfgBZc3EAfgBIcQB+AH9zcQB+AExzcQB+AE91cQB+AFIAAAADc3EAfgBUcQB+AHVzcQB+AFRxAH4Ad3EAfgBZc3EAfgBIcQB+AIFzcQB+AExzcQB+AE91cQB+AFIAAAACc3EAfgBUcQB+AFdxAH4AWXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAFc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+ABx4cHQAGW9yZy5hcGFjaGUuc3BhcmsuZXhhbXBsZXNzcQB+ALR0AB9vcmcuYXBhY2hlLnNwYXJrLmV4YW1wbGVzLm1sbGlic3EAfgC0dAAQb3JnLmFwYWNoZS5zcGFya3NxAH4AtHQACm9yZy5hcGFjaGVzcQB+ALR0AANvcmdzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVJnM3eWdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAcTAAPc291cmNlRGlyZWN0b3J5cQB+ABx4cHQAJS9ob21lL2NoYXJsZXMvd29ya3NwYWNlL0xEQVNhbXBsZS9iaW50ACUvaG9tZS9jaGFybGVzL3dvcmtzcGFjZS9MREFTYW1wbGUvc3JjdXIAAltCrPMX+AYIVOACAAB4cAAAABQpZUiPX9mDBcphDMGyRrKGKhgYXQ==
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyHashingTF.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDfE5dnAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAArb3JnLmFwYWNoZS5zcGFyay5leGFtcGxlcy5tbGxpYi5NeUhhc2hpbmdURnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsO5FPEfRFTMkCAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AL3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4ALgBwc3EAfgAzc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+ABVMAAlpbmhlcml0ZWRxAH4AFUwAB3BhcmVudHNxAH4AFXhxAH4AN3NxAH4ALgBwc3EAfgAzdXEAfgAQAAAAAHNxAH4ALgBwc3EAfgAzdXEAfgAQAAAAAHNxAH4ALgBwc3EAfgAzdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAARzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+ABxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgA2dAAMU2VyaWFsaXphYmxlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgA2c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4AHHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBUc3EAfgBHcQB+AEpzcQB+AEtzcQB+AE51cQB+AFEAAAADc3EAfgBTdAAEamF2YXNxAH4AU3QAAmlvcQB+AFhzcQB+AEd0AAZPYmplY3RzcQB+AEtzcQB+AE51cQB+AFEAAAADc3EAfgBTcQB+AF5zcQB+AFN0AARsYW5ncQB+AFhzcQB+AEd0AANBbnlxAH4ATXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAFc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+ABx4cHQAGW9yZy5hcGFjaGUuc3BhcmsuZXhhbXBsZXNzcQB+AG10AB9vcmcuYXBhY2hlLnNwYXJrLmV4YW1wbGVzLm1sbGlic3EAfgBtdAAQb3JnLmFwYWNoZS5zcGFya3NxAH4AbXQACm9yZy5hcGFjaGVzcQB+AG10AANvcmdzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVJnM3eWdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAcTAAPc291cmNlRGlyZWN0b3J5cQB+ABx4cHQAJS9ob21lL2NoYXJsZXMvd29ya3NwYWNlL0xEQVNhbXBsZS9iaW50ACUvaG9tZS9jaGFybGVzL3dvcmtzcGFjZS9MREFTYW1wbGUvc3JjdXIAAltCrPMX+AYIVOACAAB4cAAAABQybaM/T39V9jYj1J9okL+RFz/gFA==
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBqB8cZAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAANzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAlb3JnLmFwYWNoZS5zcGFyay5leGFtcGxlcy5tbGxpYi5NeUlERnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsO5FPEfRFTMkCAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AL3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4ALgBwc3EAfgAzc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+ABVMAAlpbmhlcml0ZWRxAH4AFUwAB3BhcmVudHNxAH4AFXhxAH4AN3NxAH4ALgBwc3EAfgAzdXEAfgAQAAAAAHNxAH4ALgBwc3EAfgAzdXEAfgAQAAAAAHNxAH4ALgBwc3EAfgAzdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+ABxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgA2dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgA2c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4AHHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgBTdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBUc3EAfgBHdAADQW55c3EAfgBLc3EAfgBOdXEAfgBRAAAAAnNxAH4AU3QABXNjYWxhcQB+AFpzcQB+ABJzcgAReHNidGkuYXBpLlByaXZhdGVTqWCBJunVPgIAAHhyABN4c2J0aS5hcGkuUXVhbGlmaWVkqrRd71SxbRgCAAFMAAlxdWFsaWZpZXJ0ABVMeHNidGkvYXBpL1F1YWxpZmllcjt4cQB+AB9zcgAVeHNidGkuYXBpLlVucXVhbGlmaWVk3DYUtp4ugvUCAAB4cgATeHNidGkuYXBpLlF1YWxpZmllcrN4lKnr1lsnAgAAeHB1cQB+ACEAAAAAc3EAfgAjAHQAJW9yZy5hcGFjaGUuc3BhcmsuZXhhbXBsZXMubWxsaWIuTXlJREZ1cQB+ACYAAAAAfnEAfgAodAAGTW9kdWxldXEAfgAsAAAAAHNxAH4ALgBwc3EAfgAzcQB+ADhzcQB+AC4AcHNxAH4AM3NxAH4AO3NxAH4ALgBwc3EAfgAzdXEAfgAQAAAAAHNxAH4ALgBwc3EAfgAzdXEAfgAQAAAAAHNxAH4ALgBwc3EAfgAzdXEAfgBFAAAAAnNxAH4AR3EAfgBKc3EAfgBLc3EAfgBOdXEAfgBRAAAAA3NxAH4AU3EAfgBWc3EAfgBTcQB+AFhxAH4AWnNxAH4AR3EAfgBcc3EAfgBLc3EAfgBOdXEAfgBRAAAAAnNxAH4AU3EAfgBhcQB+AFpzcQB+ABJxAH4AIHVxAH4AIQAAAABzcQB+ACMAdAAqb3JnLmFwYWNoZS5zcGFyay5leGFtcGxlcy5tbGxpYi5NeUlERk1vZGVsdXEAfgAmAAAAAHEAfgAqdXEAfgAsAAAAAHNxAH4ALgBwc3EAfgAzcQB+ADhzcQB+AC4AcHNxAH4AM3NxAH4AO3NxAH4ALgBwc3EAfgAzdXEAfgAQAAAAAHNxAH4ALgBwc3EAfgAzdXEAfgAQAAAAAHNxAH4ALgBwc3EAfgAzdXEAfgBFAAAABHNxAH4AR3QADFNlcmlhbGl6YWJsZXNxAH4AS3NxAH4ATnVxAH4AUQAAAAJzcQB+AFNxAH4AYXEAfgBac3EAfgBHcQB+AJ9zcQB+AEtzcQB+AE51cQB+AFEAAAADc3EAfgBTcQB+AFZzcQB+AFN0AAJpb3EAfgBac3EAfgBHcQB+AEpzcQB+AEtzcQB+AE51cQB+AFEAAAADc3EAfgBTcQB+AFZzcQB+AFNxAH4AWHEAfgBac3EAfgBHcQB+AFxxAH4AoHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAFc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+ABx4cHQAGW9yZy5hcGFjaGUuc3BhcmsuZXhhbXBsZXNzcQB+ALR0AB9vcmcuYXBhY2hlLnNwYXJrLmV4YW1wbGVzLm1sbGlic3EAfgC0dAAQb3JnLmFwYWNoZS5zcGFya3NxAH4AtHQACm9yZy5hcGFjaGVzcQB+ALR0AANvcmdzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVJnM3eWdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAcTAAPc291cmNlRGlyZWN0b3J5cQB+ABx4cHQAJS9ob21lL2NoYXJsZXMvd29ya3NwYWNlL0xEQVNhbXBsZS9iaW50ACUvaG9tZS9jaGFybGVzL3dvcmtzcGFjZS9MREFTYW1wbGUvc3JjdXIAAltCrPMX+AYIVOACAAB4cAAAABTIvcPtCMI0GW4SUgM90o9b+RtXuQ==
+external apis:
+0 items
+source infos:
+4 items
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/AbstractParams.scala -> 
+AAAAAAAAAAA=
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/LDAExample.scala -> 
+AAAAAAAAAAEAAAEAAABiAIogICAgICAgICAgdm9jYWIgPSBzYy50ZXh0RmlsZSgidm9jYWIudHh0IikubWFwKHMgPT4gcy5zcGxpdCgiICIpKS5tYXAoeCA9PiB4KDApKS56aXBXaXRoSW5kZXgoKS5tYXAoeCA9PiAoeC5fMSwgeC5fMi50b0ludCkpLnRvQXJyYXkudG9NYXABAAAOHAEAAAB9AQB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICABAFYvaG9tZS9jaGFybGVzL3dvcmtzcGFjZS9MREFTYW1wbGUvc3JjL29yZy9hcGFjaGUvc3BhcmsvZXhhbXBsZXMvbWxsaWIvTERBRXhhbXBsZS5zY2FsYQEAVi9ob21lL2NoYXJsZXMvd29ya3NwYWNlL0xEQVNhbXBsZS9zcmMvb3JnL2FwYWNoZS9zcGFyay9leGFtcGxlcy9tbGxpYi9MREFFeGFtcGxlLnNjYWxhADZtZXRob2QgdG9BcnJheSBpbiBjbGFzcyBSREQgaXMgZGVwcmVjYXRlZDogdXNlIGNvbGxlY3QB
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyHashingTF.scala -> 
+AAAAAAAAAAA=
+/home/charles/workspace/LDASample/src/org/apache/spark/examples/mllib/MyIDF.scala -> 
+AAAAAAAAAAA=
+compilations:
+3 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUmcwNbV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJS9ob21lL2NoYXJsZXMvd29ya3NwYWNlL0xEQVNhbXBsZS9iaW50ACUvaG9tZS9jaGFybGVzL3dvcmtzcGFjZS9MREFTYW1wbGUvc3Jj
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUmcwR7B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJS9ob21lL2NoYXJsZXMvd29ya3NwYWNlL0xEQVNhbXBsZS9iaW50ACUvaG9tZS9jaGFybGVzL3dvcmtzcGFjZS9MREFTYW1wbGUvc3Jj
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUmczd5Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJS9ob21lL2NoYXJsZXMvd29ya3NwYWNlL0xEQVNhbXBsZS9iaW50ACUvaG9tZS9jaGFybGVzL3dvcmtzcGFjZS9MREFTYW1wbGUvc3Jj

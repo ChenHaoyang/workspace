@@ -19,11 +19,12 @@ package org.apache.spark.examples.mllib
 import java.text.BreakIterator
 import scala.collection.mutable
 import scala.List
+import scala.math._
 import scopt.OptionParser
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.{SparkContext, SparkConf}
+import org.apache.spark.{SparkContext, SparkConf, Accumulator}
 import org.apache.spark.mllib.clustering.{EMLDAOptimizer, OnlineLDAOptimizer, DistributedLDAModel, LDA, LocalLDAModel, LDAModel}
-import org.apache.spark.mllib.linalg.{Vector, Vectors, SparseVector, Matrix, DenseMatrix}
+import org.apache.spark.mllib.linalg.{Vector, Vectors, SparseVector, Matrix, DenseMatrix,Matrices}
 import org.apache.spark.rdd.RDD
 import java.io._
 import org.apache.spark.mllib.feature._
@@ -34,6 +35,7 @@ import scala.swing._
 import scala.swing.event._
 import org.apache.commons.io.FileUtils
 import org.apache.commons.io.filefilter.WildcardFileFilter
+import breeze.collection.mutable.{SparseArray}
 
 /**
  * An example Latent Dirichlet Allocation (LDA) app. Run with
@@ -51,7 +53,8 @@ object LDA4Keyword {
   var ldamodel: LDAModel = null
   var vocab: Map[String, Int] = null
   var vocabArray: Array[String] = null
-  val topic_num = 100
+  var pmiMatrix: Matrix = null
+  val topic_num = 3
   
   private case class UI (defaultParams: Params, parser:OptionParser[Params], args:Array[String]) extends MainFrame {
     title = "LDA for Keywords"
@@ -241,6 +244,7 @@ object LDA4Keyword {
     println(s"\t Training set size: $actualNumTokens tokens")
     println(s"\t Preprocessing time: $preprocessElapsed sec")
     println()
+    
     // Run LDA.
     val lda = new LDA()
     val optimizer = params.algorithm.toLowerCase match {
@@ -273,18 +277,22 @@ object LDA4Keyword {
       println(s"\t Training data average log likelihood: $avgLogLikelihood")
       println()
     }
+    /*
     else{
       val onlineLDAModel = ldaModel.asInstanceOf[LocalLDAModel]
       val logPerplexity = onlineLDAModel.logPerplexity(test_corpus)
       println(s"\t Test data log Perplexity: $logPerplexity")
       println()
     }
+    * 
+    */
     // Print the topics, showing the top-weighted terms for each topic.
+
     val topicIndices = ldaModel.describeTopics(maxTermsPerTopic = 10)
     val topics = topicIndices.map { case (terms, termWeights) =>
       terms.zip(termWeights).map { case (term, weight) => (term, vocabArray(term.toInt), weight) }
     }
-    /*
+
     println(s"${params.k} topics:")
     topics.zipWithIndex.foreach { case (topic, i) =>
       println(s"TOPIC $i")
@@ -293,8 +301,14 @@ object LDA4Keyword {
       }
       println()
     }
-    * 
-    */
+
+    //Calculate PMI
+    val topic_pmi = pmi(corpus, topicIndices, actualVocabSize)
+    topic_pmi.foreach(pair => {
+      println(s"PMI of Topic $pair._1 : $pair._2")
+    } 
+    )
+    
     deleteDirectory("myLDAModel")
     //sc.stop()
     ldaModel.save(sc, "myLDAModel")
@@ -304,7 +318,81 @@ object LDA4Keyword {
     System.gc()
     return ldaModel
   }
+
+  def seqsum(start:Int=1, limit:Int, dif:Int=1): Int ={
+    if(abs(limit-start) < abs(dif) || (start+dif) > limit) return(0)    
+    val n = ((limit-start) / dif) + 1
+    (start+limit)*n/2
+  }
   
+  def pmi(docs:RDD[(Long, Vector)],topicArry: Array[(Array[Int], Array[Double])], vocSize: Int): Array[(Int,Double)] ={
+    //Load PMI Matrix if exists
+    //var pMatrix = Matrices.speye(vocSize)
+    val pArray = new SparseArray[Accumulator[Double]](seqsum(limit=vocSize))
+    val topics = topicArry.map { case (term_idxes, termWeights) => term_idxes }
+    val topicWords = topics.flatMap{arr => arr}.toSet.toArray.sorted//indexes of tokens
+    val wordsCount = seqsum(limit=topicWords.length)
+    val indx = new Array[Int](wordsCount)
+    val elem = new Array[Accumulator[Double]](wordsCount)
+    
+    //initialize pArray
+    for(i <-0 to topicWords.length-1){
+      val ssum = seqsum(limit=topicWords(i))
+      for(j <-0 to i){
+        val idx_j = topicWords(j)
+        val idx = seqsum(limit=i)+j
+        //println(ssum)
+        indx(idx) = ssum+idx_j
+        elem(idx) = sc.accumulator[Double](0)
+        //if(!pArray.contains(ssum+idx_j))
+        //pArray.update(ssum+idx_j, sc.accumulator[Double](0))
+      }
+    }
+    pArray.use(indx, elem, elem.length)
+    
+    //val tes =new SparseArray()
+    //update pArray
+    docs.foreach { case (docid, tokens) =>
+      val tokenids = tokens.toSparse.values.sorted
+      for (i <- 0 to tokenids.length-1){
+        //token's Index
+        val idx_i = tokenids(i).toInt
+        if(topicWords.contains(idx_i)){
+          val ssum = seqsum(limit=idx_i)
+	      for(j <- 0 to i){
+	        var idx_j = tokens(j).toInt
+	        if(topicWords.contains(idx_j)){
+	          println(ssum + ", " + idx_j)
+	          pArray(ssum+idx_j) += 1
+	        }
+	      }
+        }
+      }
+    }
+    //Standardization
+    pArray.foreach(elem => if(elem != null) elem.setValue(elem.value / docs.count))
+    
+    val pmi = topics.zipWithIndex.map{ case(tokens,idx) => 
+      val tokens_sorted = tokens.sorted
+      var pmi_total = 0d
+      println("topic id : " + idx)
+      for(i <- 0 to tokens.length){
+        val ssum = seqsum(limit=tokens_sorted(i))
+        println(tokens(i))
+        for(j <-0 to i){
+          if(i != j)
+        	  pmi_total = pmi_total + 
+        	  log(pArray(ssum+tokens_sorted(j)).value / 
+        	      (pArray(ssum+tokens_sorted(i)).value * pArray(seqsum(limit=tokens_sorted(j))+tokens_sorted(j)).value))
+        }
+      }
+      (idx, pmi_total / tokens.length)
+    }
+    pmi
+    //Array.ofDim[(Int,Double)](1,1)
+  }
+
+ 
   /**
    * calculate the hashcode of a string object
    * @author charles
@@ -399,9 +487,8 @@ object LDA4Keyword {
     // Counts words: RDD[(word, wordCount)]
     val wordCounts: RDD[(String, Long)] = tokenized
       .flatMap { case (_, tokens) => tokens.map(_ -> 1L) }
-      .filter(pair => if(selected_feature_idx.contains(hashing(pair._1))) true else false)
+      .filter(pair => if(selected_feature_idx.contains(hashing(pair._1))) true else false)//check whether the token is selected
       .reduceByKey(_ + _)
-      //.filter(x => if(x._2<3) false else true)
     wordCounts.cache()
     //println(wordCounts.count())
     val fullVocabSize = wordCounts.count()
@@ -415,6 +502,7 @@ object LDA4Keyword {
         // Sort terms to select vocab
         wordCounts.sortBy(_._2, ascending = false).take(vocabSize)
       }
+      //generate the vocabulary set with indexing
       vocab = tmpSortedWC.map(_._1).zipWithIndex.toMap
       (tmpSortedWC.map(_._2).sum)
     }
